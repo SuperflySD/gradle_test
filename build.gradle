@@ -1,0 +1,39 @@
+
+plugins {
+    id 'org.springframework.boot' version '2.0.4.RELEASE'
+    id "io.spring.dependency-management" version "1.0.6.RELEASE"
+    id "java"
+}
+
+group 'gr-test'
+version '1'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.6'
+    //compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.5.0'
+   // compile project(':shared')
+    testCompile 'junit:junit:4.12'
+//    compile(group: 'org.apache.commons', name: 'commons-text', version: '1.0')
+//    //{  exclude group: 'org.apache.commons', module: 'commons-lang3'}
+//    // compile (group: 'org.apache.commons', name: 'commons-text', version: '1.0') //{  exclude group: 'org.apache.commons', module: 'commons-lang3'}
+//   // integrationTestCompile 'org.apache.commons:commons-lang3:3.7'
+//   // compile 'org.apache.commons:commons-lang3:3.6'
+//    compile 'org.springframework.boot:spring-boot-starter-web'
+//    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    // providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+}
+
+
+

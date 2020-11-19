@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainClass {
 
     public static void main(String[] args) {
-        System.out.println("Smtgydfgveedgb5h15");
-//        Logger logger = LoggerFactory.getLogger(MainClass.class);
+        System.out.println("Smtgyr6dfgveedgb5h15");
+//        Logger logger6 = LoggerFactory.getLogger(MainClass.class);
 //        logger.info("Hello World");
 //        SpringApplication.run(MainClass.class, args);
     }

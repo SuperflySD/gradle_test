@@ -40,7 +40,7 @@ public class MainClass implements CommandLineRunner {
         try {
             run(Integer.parseInt(args[0]) + 1 + "");
         } catch (StackOverflowError error) {
-            System.out.println("----" + args[0]);
+            System.out.println("-----" + args[0]);
 
         }
         if (Integer.parseInt(args[0]) == 2)

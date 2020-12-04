@@ -44,7 +44,7 @@ public class MainClass implements CommandLineRunner {
 
         }
         if (Integer.parseInt(args[0]) == 2)
-            System.out.println("end");
+            System.out.println("end1");
     }
 }
 

@@ -13,7 +13,7 @@ public class Main{
         {
             loseType(0.45642f, idx);
         }
-        System.out.println(cnt + " error");
+        System.out.println(cnt + " error1");
         System.out.println(cntNull + " null");
     }
 
